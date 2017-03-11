@@ -7,7 +7,7 @@ The Dockerfile uses the gradle wrapper to run the spring boot application
  
 ```
 docker build -t testapp .
-docker run -it -p 8080:8080 testapp
+docker run -it -p 127.0.0.1:8080:8080 testapp
 ```
 
 This will start the project which can be accessed on [http://localhost:8080/](http://localhost:8080/)  
